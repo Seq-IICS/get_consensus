@@ -12,7 +12,7 @@ Run pipeline via [nextflow](https://www.nextflow.io/). Notes on building and pus
 
 
 ## SETUP
-data in data/input containing
+data directory containing
 - barcoded | demultiplexed fastq files
 - your_samplesheet.tsv
 - your_reference.fasta
@@ -26,11 +26,7 @@ data in data/input containing
 ```
 Execute on linux or wsl terminal
 ```
-git clone 'https://github.com/Seq-IICS/seq_iics.git'
-cd seq_iics
-mkdir -p data/input
-# copy your data to project data/input directory
-nextflow run main.nf --data {myDataDir} -with-docker vici0uz/iics:latest
+nextflow run Seq-IICS/get_consensus --path {myDataDir} -with-docker vici0uz/iics:latest
 ```
 ## Tools used
 - [Nanoplot](https://github.com/wdecoster/NanoPlot)
