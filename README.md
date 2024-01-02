@@ -1,4 +1,4 @@
-# GET_CONSENSUS (AMPLICONES)
+# GET_CONSENSUS (AMPLICONS)
 
 [TOC]
 
@@ -20,7 +20,7 @@ data directory containing
 
 ```
 {
-	"sample": "your_samplesheet.tsv",
+"sample": "your_samplesheet.tsv",
     "reference": "your_reference.fasta"
 }
 ```
