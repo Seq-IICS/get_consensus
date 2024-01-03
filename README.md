@@ -26,7 +26,9 @@ data directory containing
 ```
 Execute on linux or wsl terminal
 ```
-nextflow run Seq-IICS/get_consensus --path {myDataDir} -with-docker vici0uz/iics:latest
+# --path: data dir
+# --quality: run quality controls
+nextflow run Seq-IICS/get_consensus --path {myDataDir}  [--quality] -with-docker vici0uz/iics:latest
 ```
 ## Tools used
 - [Nanoplot](https://github.com/wdecoster/NanoPlot)
