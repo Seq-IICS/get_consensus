@@ -28,7 +28,10 @@ Execute on linux or wsl terminal
 ```
 # --path: data dir
 # --quality: run quality controls
-nextflow run Seq-IICS/get_consensus --path {myDataDir}  [--quality] -with-docker vici0uz/iics:latest
+# --type:
+    - "l" long
+    - "c" amplicons
+nextflow run Seq-IICS/get_consensus --path {myDataDir} --type {l|c} [--quality] -with-docker vici0uz/iics:latest
 ```
 ## Tools used
 - [Nanoplot](https://github.com/wdecoster/NanoPlot)
