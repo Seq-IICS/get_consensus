@@ -35,3 +35,5 @@ nextflow run Seq-IICS/get_consensus --path {myDataDir}  [--quality] -with-docker
 - [Minimap2](https://github.com/lh3/minimap2)
 - [Samtools](https://github.com/samtools/)
 - [iVar](https://github.com/andersen-lab/ivar)
+- [Seqtk](https://github.com/lh3/seqtk)
+- [Cramino](https://github.com/wdecoster/cramino)
