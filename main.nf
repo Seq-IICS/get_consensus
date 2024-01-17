@@ -2,7 +2,7 @@ import groovy.json.JsonSlurper
 
 def jsonSlurper = new JsonSlurper()
 
-params.debug = true
+params.debug = false
 params.quality = false
 
 def configFile = new File("${params.path}/config.json")
