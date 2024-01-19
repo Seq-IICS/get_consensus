@@ -35,8 +35,8 @@ def main_fn(barcode_path, samples, timeStamp, debug):
   
     for index, item in enumerate(listado_directorios):
         if (debug and index > 0):
-            break
-            #pass
+            #break
+            pass
 
         item_data = mysplit(item)
         dir_number = int(item_data[1])
