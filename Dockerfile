@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 ENV CONDA_URL="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     bcftools \
     minimap2 \
     libbz2-dev \
