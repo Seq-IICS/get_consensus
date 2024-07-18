@@ -20,7 +20,7 @@ data directory containing
 
 ```
 {
-    "sample": "your_samplesheet.tsv",
+    "sample": "your_samplesheet.csv",
     "reference": "your_reference.fasta"
 }
 ```
