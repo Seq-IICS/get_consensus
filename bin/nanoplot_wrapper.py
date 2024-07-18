@@ -26,7 +26,7 @@ def main_fn(barcode_path, samples, timeStamp, debug):
     path_samples = os.path.join(barcode_path, samples)
     
     with open(path_samples, 'r') as samples_file:
-        samples_reader =  csv.DictReader(samples_file, ['sample', 'barcode'], delimiter="\t")
+        samples_reader =  csv.DictReader(samples_file, ['sample', 'barcode'], delimiter="\,")
         for index, row in enumerate(samples_reader):
             if index > 0:
                 filas.append(row)
